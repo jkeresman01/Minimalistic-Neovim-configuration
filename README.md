@@ -38,3 +38,7 @@ nvim-cmp as a completion engine
 * Lualine: https://github.com/nvim-lualine/lualine.nvim
 
 ## Installation ##
+If you already have nvim configuration, you might wan't to do a backput first and then install this one with:
+```
+git -C ~/.config/ clone https://github.com/jkeresman01/Minimalistic-Neovim-configuration.git
+```
