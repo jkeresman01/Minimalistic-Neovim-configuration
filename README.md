@@ -15,14 +15,26 @@ You can find more information about packer here:
 https://github.com/wbthomason/packer.nvim
 
 ## Plugins ##
-I'am using only few essential plugins such as telesopce and harpoon for fuzzy finding and file navigation with vim-fugative and gitsigns for git.
+I'am using only few essential plugins such as:
+
+telesopce & harpoon for fuzzy finding and file navigation.
+
+vim-fugative and gitsigns as git integration tools.
+
+Mason as lsp, formatter, linter.
+
+nvim-cmp as a completion engine
 
 #### Functionality #####
 * Telescope: https://github.com/nvim-telescope/telescope.nvim
 * Fugative: https://github.com/tpope/vim-fugitive
 * Gitsigns: https://github.com/lewis6991/gitsigns.nvim
 * Harpoon: https://github.com/ThePrimeagen/harpoon
+* Mason: https://github.com/williamboman/mason.nvim
+* Nvim-cmp: https://github.com/hrsh7th/nvim-cmp
 
 #### Aesthetics #####
 * Aura (colorscheme): https://github.com/techtuner/aura-neovim
 * Lualine: https://github.com/nvim-lualine/lualine.nvim
+
+## Installation ##
