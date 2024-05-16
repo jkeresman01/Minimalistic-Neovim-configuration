@@ -1,8 +1,7 @@
 # Minimalistic neovim configuration #
 Simple, lightweight & minimalistic neovim configuration including only essential plugins.
 
-![nvim-02](https://github.com/jkeresman01/Minimalistic-Neovim-configuration/assets/165517653/9141a560-e649-4c44-b382-0b860a5c409e)
-
+[![asciicast](https://asciinema.org/a/659647.svg)](https://asciinema.org/a/659647)
 
 ## Package manager ##
 Although unmaintained from August, 2023, I'am still using Packer as my package manager.
