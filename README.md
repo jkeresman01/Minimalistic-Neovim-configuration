@@ -6,7 +6,7 @@ Simple, lightweight & minimalistic neovim configuration including only essential
 ## Package manager ##
 Although unmaintained from August, 2023, I'am still using Packer as my package manager.
 
-If you wan't to install packer you can do it with:
+Installing packer:
 ```
 git clone --depth 1 https://github.com/wbthomason/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
@@ -15,12 +15,13 @@ You can find more information about packer here:
 https://github.com/wbthomason/packer.nvim
 
 ## Plugins ##
+I'am using only few essential plugins such as telesopce and harpoon for file navigation and vim-fugative and gitsigns for git.
 
 #### Functionality #####
-* Telescope (fuzzy finding): https://github.com/nvim-telescope/telescope.nvim
-* Fugative (git): https://github.com/tpope/vim-fugitive
-* Gitsigns (git): https://github.com/lewis6991/gitsigns.nvim
-* Harpoon (navigation): https://github.com/ThePrimeagen/harpoon
+* Telescope: https://github.com/nvim-telescope/telescope.nvim
+* Fugative: https://github.com/tpope/vim-fugitive
+* Gitsigns: https://github.com/lewis6991/gitsigns.nvim
+* Harpoon: https://github.com/ThePrimeagen/harpoon
 
 ##### Aesthetics #####
 * Aura (colorscheme): https://github.com/techtuner/aura-neovim
