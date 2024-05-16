@@ -25,6 +25,8 @@ Mason as lsp, formatter, linter.
 
 nvim-cmp as a completion engine
 
+Treesiter as a syntax highlighter
+
 #### Functionality #####
 * Telescope: https://github.com/nvim-telescope/telescope.nvim
 * Fugative: https://github.com/tpope/vim-fugitive
@@ -32,6 +34,7 @@ nvim-cmp as a completion engine
 * Harpoon: https://github.com/ThePrimeagen/harpoon
 * Mason: https://github.com/williamboman/mason.nvim
 * Nvim-cmp: https://github.com/hrsh7th/nvim-cmp
+* Treesiter: https://github.com/nvim-treesitter/nvim-treesitter
 
 #### Aesthetics #####
 * Aura (colorscheme): https://github.com/techtuner/aura-neovim
