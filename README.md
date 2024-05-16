@@ -15,7 +15,7 @@ You can find more information about packer here:
 https://github.com/wbthomason/packer.nvim
 
 ## Plugins ##
-I'am using only few essential plugins such as telesopce and harpoon for file navigation and vim-fugative and gitsigns for git.
+I'am using only few essential plugins such as telesopce and harpoon for fuzzy finding and file navigation with vim-fugative and gitsigns for git.
 
 #### Functionality #####
 * Telescope: https://github.com/nvim-telescope/telescope.nvim
