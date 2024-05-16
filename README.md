@@ -23,6 +23,6 @@ I'am using only few essential plugins such as telesopce and harpoon for fuzzy fi
 * Gitsigns: https://github.com/lewis6991/gitsigns.nvim
 * Harpoon: https://github.com/ThePrimeagen/harpoon
 
-##### Aesthetics #####
+#### Aesthetics #####
 * Aura (colorscheme): https://github.com/techtuner/aura-neovim
 * Lualine: https://github.com/nvim-lualine/lualine.nvim
