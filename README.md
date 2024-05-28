@@ -109,7 +109,6 @@ Treesiter as a syntax highlighter
 `<C-t>`: Run tmux switch sricpt located under tmux_scripts
 
 
-git@github.com:jkeresman01/Minimalistic-Neovim-configuration.git
 ## Installation ##
 If you already have nvim configuration, you might wan't to do a backput first and then install this one with:
 ```
