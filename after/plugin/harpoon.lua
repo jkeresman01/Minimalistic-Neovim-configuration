@@ -10,6 +10,6 @@ vim.keymap.set("n", "<C-w>", function() ui.nav_file(2) end)
 vim.keymap.set("n", "<C-t>", function() ui.nav_file(3) end)
 
 vim.keymap.set("n", "<C-z>", function()
-    tmux.sendCommand(1, "/home/josip/random_script/tmux_switch.sh\n")
+    tmux.sendCommand(1, "~/random_script/tmux_switch.sh\n")
 end)
 
