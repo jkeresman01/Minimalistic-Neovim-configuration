@@ -28,6 +28,7 @@ nvim-cmp as a completion engine
 Treesiter as a syntax highlighter
 
 #### Functionality #####
+***
 * Telescope: https://github.com/nvim-telescope/telescope.nvim
 * Fugative: https://github.com/tpope/vim-fugitive
 * Gitsigns: https://github.com/lewis6991/gitsigns.nvim
@@ -37,11 +38,79 @@ Treesiter as a syntax highlighter
 * Treesiter: https://github.com/nvim-treesitter/nvim-treesitter
 
 #### Aesthetics #####
+***
 * Aura (colorscheme): https://github.com/techtuner/aura-neovim
 * Lualine: https://github.com/nvim-lualine/lualine.nvim
+
+## Remaps ##
+
+`,`: Leader key
+
+`<leader>e`: Open netrw directory listings
+
+`<leader>b`: Go to previous buffer
+
+`<leader>v`: Vertical split
+
+`<leader>s`: Source file in current buffer.
+
+
+#### LSP #####
+***
+
+`<K>`: Displays hover information about the symbol under the cursor in a floating window.
+
+`<gd>`: Jumps to the definition of the symbol under the cursor.
+
+`<F4>`: Selects a code action available at the current cursor position.
+
+`<C-n>`: Goes to next availible suggested completion option.
+
+`<CR>`: Confirms suggested completion.
+
+
+####  Fugative  ####
+***
+
+`<leader>g`: Opens vim-fugative in veritcal split.
+
+`<leader>gb`: Git blame.
+
+`<leader>gl`: Git log
+
+`<leader>gl`: Git log --oneline
+
+`-`: Stage or unstage file under the cursor
+
+`=`: Show changes in file under the cursor
+
+#### Telescope ####
+***
+
+`<leader>ff`: Find files.
+
+`<leader>fg`: Live grep.
+
+`<leader>fb`: Buffers.
+
+#### Harpoon  ####
+***
+
+`<C-e>`: Open Harpoon UI.
+
+`<leader>a`: Add file in current buffer to Harpoon navigation list.
+
+`<C-q>`: Go to first file in Harpoon navigation list.
+
+`<C-w>`: Go to second file in Harpoon navigation list.
+
+`<C-t>`: Go to third file in Harpoon navigation list.
+
+`<C-t>`: Run tmux switch sricpt located under tmux_scripts
+
 
 ## Installation ##
 If you already have nvim configuration, you might wan't to do a backput first and then install this one with:
 ```
-git -C ~/.config/ clone https://github.com/jkeresman01/Minimalistic-Neovim-configuration.git
+git -C ~/.config/ clone https://github.com/jkeresman01/Minimalistic-Neovim-configuration.git nvim
 ```
