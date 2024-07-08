@@ -1,8 +1,8 @@
-local mark = require("harpoon.mark")
-local ui = require("harpoon.ui")
+local mark  = require("harpoon.mark")
+local ui    = require("harpoon.ui")
 local tmux  = require("harpoon.tmux")
 
-vim.keymap.set("n", "<C-e>", function() ui.toggle_quick_menu() end)
+vim.keymap.set("n", "<C-e>",     function() ui.toggle_quick_menu() end)
 vim.keymap.set("n", "<leader>a", function() mark.add_file() end)
 
 vim.keymap.set("n", "<C-q>", function() ui.nav_file(1) end)
