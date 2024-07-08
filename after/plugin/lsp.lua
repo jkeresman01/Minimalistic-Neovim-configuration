@@ -9,10 +9,8 @@ end)
 
 require('mason').setup({})
 require('mason-lspconfig').setup({
-    ensure_installed = {'tsserver', 'rust_analyzer', 'clangd', 'gopls'},
-    handlers = {
-        lsp_zero.default_setup,
-    }
+    ensure_installed = {'tsserver', 'rust_analyzer', 'lua_ls', 'jsonls', 'clangd', 'gopls'},
+    handlers = { lsp_zero.default_setup }
 })
 
 local cmp = require('cmp')
