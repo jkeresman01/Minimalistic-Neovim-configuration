@@ -4,7 +4,7 @@ Simple, lightweight & minimalistic Neovim configuration including only essential
 [![asciicast](https://asciinema.org/a/659647.svg)](https://asciinema.org/a/659647)
 
 ## Package manager ##
-Although unmaintained from August, 2023, I'am still using Packer as my package manager.
+Although unmaintained from August, 2023, I'm still using Packer as my package manager.
 
 Installing packer:
 ```
