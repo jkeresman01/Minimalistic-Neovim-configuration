@@ -54,6 +54,12 @@ Treesiter as a syntax highlighter
 
 `<leader>s`: Source file in current buffer.
 
+#### Split navigation ####
+
+'<c-h>' : Move to left 
+'<c-l>' : Move to right
+'<c-k>' : Move up
+'<c-j>' : Move down
 
 #### LSP #####
 ***
