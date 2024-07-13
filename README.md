@@ -1,5 +1,5 @@
 # Minimalistic neovim configuration #
-Simple, lightweight & minimalistic neovim configuration including only essential plugins.
+Simple, lightweight & minimalistic Neovim configuration including only essential plugins.
 
 [![asciicast](https://asciinema.org/a/659647.svg)](https://asciinema.org/a/659647)
 
@@ -15,15 +15,15 @@ You can find more information about packer here:
 https://github.com/wbthomason/packer.nvim
 
 ## Plugins ##
-I'am using only few essential plugins such as:
+I'm using only few essential plugins such as:
 
-telesopce & harpoon for fuzzy finding and file navigation.
+Telesopce & harpoon for fuzzy finding and file navigation.
 
-vim-fugative and gitsigns as git integration tools.
+Vim-fugative and gitsigns as git integration tools.
 
-Mason as lsp, formatter, linter.
+Mason (lsp, formatter, linter).
 
-nvim-cmp as a completion engine
+Nvim-cmp as a completion engine
 
 Treesiter as a syntax highlighter
 
@@ -70,7 +70,7 @@ Treesiter as a syntax highlighter
 
 `<F4>`: Selects a code action available at the current cursor position.
 
-`<C-n>`: Goes to next availible suggested completion option.
+`<C-n>`: Goes to next available suggested completion option.
 
 `<CR>`: Confirms suggested completion.
 
@@ -112,11 +112,11 @@ Treesiter as a syntax highlighter
 
 `<C-t>`: Go to third file in Harpoon navigation list.
 
-`<C-t>`: Run tmux switch sricpt located under tmux_scripts
+`<C-t>`: Run tmux switch script located under tmux_scripts
 
 
 ## Installation ##
-If you already have nvim configuration, you might wan't to do a backput first and then install this one with:
+If you already have nvim configuration, you might want to do a backup first and then install this one with:
 ```
 git -C ~/.config/ clone https://github.com/jkeresman01/Minimalistic-Neovim-configuration.git nvim
 ```
