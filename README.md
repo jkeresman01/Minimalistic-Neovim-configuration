@@ -56,10 +56,10 @@ Treesiter as a syntax highlighter
 
 #### Split navigation ####
 
-'<c-h>' : Move to left 
-'<c-l>' : Move to right
-'<c-k>' : Move up
-'<c-j>' : Move down
+`<c-h>` : Move to left 
+`<c-l>` : Move to right
+`<c-k>` : Move up
+`<c-j>` : Move down
 
 #### LSP #####
 ***
