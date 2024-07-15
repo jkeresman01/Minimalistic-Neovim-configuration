@@ -115,10 +115,6 @@ I'm using only few essential plugins such as:
 
 ## Installation ##
 If you already have nvim configuration, you might want to do a backup first and then install this one with:
-
-
-## Installation ##
-If you already have nvim configuration, you might want to do a backup first and then install this one with:
 ```
 git -C ~/.config/ clone https://github.com/jkeresman01/Minimalistic-Neovim-configuration.git nvim
 ```
