@@ -11,8 +11,6 @@ Installing packer:
 git clone --depth 1 https://github.com/wbthomason/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ```
-You can find more information about packer here:
-https://github.com/wbthomason/packer.nvim
 
 You can find more information about packer here:
 https://github.com/wbthomason/packer.nvim
