@@ -20,8 +20,6 @@ I'm using only few essential plugins such as:
 
 *  Telescope & harpoon for fuzzy finding and file navigation.
   
-*  Telescope & harpoon for fuzzy finding and file navigation.
-  
 *  Mason (lsp, formatter, linter).
   
 *  Nvim-cmp as a completion engine.
