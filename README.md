@@ -94,6 +94,7 @@ I'm using only few essential plugins such as:
 | `<leader>ff`  | Find files      |
 | `<leader>fg`  | Live grep       |
 | `<leader>fb`  | Buffers         |
+| `<leader>fh`  | Help tags       |
 
 ### Harpoon ###
 ***
