@@ -90,7 +90,7 @@ I'm using only few essential plugins such as:
 | `=`           | Show changes in file under the cursor       |
 
 ### Telescope ###
-
+***
 | Keybind       | Action          |
 |---------------|-----------------|
 | `<leader>ff`  | Find files      |
@@ -106,7 +106,7 @@ I'm using only few essential plugins such as:
 |---------------|---------------------------------------------------------------|
 | `<C-f>`       | Open TMUX switch  UI                                          |
 | `<leader>cs`  | Create new TMUX session                                       |
-***
+
 
 ### Harpoon ###
 ***
