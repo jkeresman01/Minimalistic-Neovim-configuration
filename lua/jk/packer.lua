@@ -35,6 +35,8 @@ return require('packer').startup(function(use)
         }
     }
 
+    use('jkeresman01/tmux-switch.nvim')
+
     use {
         'nvim-lualine/lualine.nvim',
         requires = { 'nvim-tree/nvim-web-devicons', opt = true }

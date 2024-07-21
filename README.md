@@ -19,6 +19,8 @@ https://github.com/wbthomason/packer.nvim
 I'm using only few essential plugins such as:
 
 *  Telescope & harpoon for fuzzy finding and file navigation.
+
+*  TMUX switch for TMUX session managment within Neovim
   
 *  Mason (lsp, formatter, linter).
   
@@ -29,6 +31,7 @@ I'm using only few essential plugins such as:
 #### Functionality #####
 ***
 * [Telescope](https://github.com/nvim-telescope/telescope.nvim)
+* [TMUX switch](https://github.com/jkeresman01/tmux-switch.nvim)
 * [Fugitive](https://github.com/tpope/vim-fugitive)
 * [Gitsigns](https://github.com/lewis6991/gitsigns.nvim)
 * [Harpoon](https://github.com/ThePrimeagen/harpoon)
@@ -87,7 +90,6 @@ I'm using only few essential plugins such as:
 | `=`           | Show changes in file under the cursor       |
 
 ### Telescope ###
-***
 
 | Keybind       | Action          |
 |---------------|-----------------|
@@ -95,6 +97,16 @@ I'm using only few essential plugins such as:
 | `<leader>fg`  | Live grep       |
 | `<leader>fb`  | Buffers         |
 | `<leader>fh`  | Help tags       |
+
+
+### TMUX switch ###
+***
+
+| Keybind       | Action                                                        |
+|---------------|---------------------------------------------------------------|
+| `<C-f>`       | Open TMUX switch  UI                                          |
+| `<leader>cs`  | Create new TMUX session                                       |
+***
 
 ### Harpoon ###
 ***
