@@ -8,5 +8,5 @@ if [[ -z $TMUX ]] && [[ -z $is_tmux_running ]]; then
     exit 1
 fi
 
-# Get the id from tmux session name and swith to that session
+# List tmux session names and switch to selected tmux session
 tmux ls | awk -F ':' '{print $1}' | fzf | xargs -I {} tmux switch -t {}
