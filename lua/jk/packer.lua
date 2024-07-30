@@ -6,17 +6,18 @@ return require('packer').startup(function(use)
     use 'rstacruz/vim-closer'
 
     use {
-        "techtuner/aura-neovim",
-        as = 'aura',
-        config = function()
-            vim.cmd('colorscheme aura')
-        end
-    }
-
-    use {
         'nvim-telescope/telescope.nvim', tag = '0.1.5',
         requires = { {'nvim-lua/plenary.nvim'} }
     }
+
+    use 'techtuner/aura-neovim'
+
+    use 'nvim-lua/popup.nvim'
+    use 'MunifTanjim/nui.nvim'
+
+    use 'jkeresman01/tmux-switch.nvim'
+
+    use 'nvim-treesitter/playground'
 
     use('nvim-treesitter/nvim-treesitter', { run =  ':TSUpdate' })
 

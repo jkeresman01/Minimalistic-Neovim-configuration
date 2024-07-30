@@ -20,4 +20,3 @@ vim.opt.incsearch = false
 vim.opt.termguicolors = true
 
 vim.opt.scrolloff = 8
-

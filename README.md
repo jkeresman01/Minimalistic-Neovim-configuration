@@ -106,6 +106,7 @@ I'm using only few essential plugins such as:
 |---------------|---------------------------------------------------------------|
 | `<C-f>`       | Open TMUX switch  UI                                          |
 | `<leader>cs`  | Create new TMUX session                                       |
+| `<leader>cs`  | Rename TMUX session                                       |
 
 
 ### Harpoon ###
