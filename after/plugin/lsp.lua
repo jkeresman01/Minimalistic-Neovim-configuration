@@ -9,7 +9,7 @@ end)
 
 require('mason').setup({})
 require('mason-lspconfig').setup({
-    ensure_installed = {'tsserver', 'rust_analyzer', 'lua_ls', 'jsonls', 'clangd', 'gopls'},
+    ensure_installed = {'tsserver', 'rust_analyzer', 'clangd', 'gopls'},
     handlers = { lsp_zero.default_setup }
 })
 
@@ -19,7 +19,6 @@ cmp.setup({
     sources = { {name = 'nvim_lsp'}, },
     mapping = cmp.mapping.preset.insert({
         ['<CR>'] = cmp.mapping.confirm({select = false}),
-        ['<C-Space>'] = cmp.mapping.complete(),
     }),
     snippet = {
         expand = function(args)
