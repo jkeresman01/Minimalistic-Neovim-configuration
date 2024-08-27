@@ -119,7 +119,7 @@ I'm using only few essential plugins such as:
 | `<C-q>`       | Go to first file in Harpoon navigation list                   |
 | `<C-w>`       | Go to second file in Harpoon navigation list                  |
 | `<C-t>`       | Go to third file in Harpoon navigation list                   |
-| `<C-t>`       | Run tmux switch script located under tmux_scripts             |
+| `<C-z>`       | Run tmux switch script located under tmux_scripts             |
 ***
 
 
