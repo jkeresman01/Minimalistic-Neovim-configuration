@@ -73,6 +73,7 @@ https://github.com/wbthomason/packer.nvim
 | `<c-j>`       | Move down      |
 
 ### Set - Unset ###
+***
 
 | Keybind       | Action                          |
 |---------------|---------------------------------|
@@ -82,8 +83,6 @@ https://github.com/wbthomason/packer.nvim
 | `<leader>snrn`| Disable relative numbers        |
 | `<leader>sn`  | Enable line numbers             |
 | `<leader>snn` | Disable line numbers            |
-
-
 
 ### LSP ###
 ***
@@ -107,6 +106,12 @@ https://github.com/wbthomason/packer.nvim
 | `<leader>gl`  | Git log --oneline                           |
 | `-`           | Stage or unstage file under the cursor      |
 | `=`           | Show changes in file under the cursor       |
+
+### Gitsigns ###
+| Keybind       | Action                             |
+|---------------|------------------------------------|
+| `<leader>ph`  | Preview hunk in floating UI        |
+
 
 ### Telescope ###
 ***

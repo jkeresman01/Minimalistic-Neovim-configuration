@@ -37,3 +37,5 @@ require('gitsigns').setup {
         col = 1
     },
 }
+
+vim.keymap.set("n", "<leader>ph", "<cmd>Gitsigns preview_hunk<CR>")
