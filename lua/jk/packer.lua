@@ -47,6 +47,8 @@ return require("packer").startup(function(use)
     use("jkeresman01/java-method-search.nvim")
     use("/home/josip/git/nvim/java-boilerplate.nvim")
 
+    use{ "folke/trouble.nvim", cmd = "Trouble" }
+
     use("lewis6991/gitsigns.nvim")
 
     use("nvim-lua/plenary.nvim")
