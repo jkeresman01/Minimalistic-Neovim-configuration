@@ -52,6 +52,7 @@ https://github.com/wbthomason/packer.nvim
 |---------------|---------------------------------|
 | `,`           | Leader key                      |
 
+***
 
 | Keybind       | Action                          |
 |---------------|---------------------------------|
@@ -71,7 +72,7 @@ https://github.com/wbthomason/packer.nvim
 | `<c-k>`       | Move up        |
 | `<c-j>`       | Move down      |
 
-### Set Unset ###
+### Set - Unset ###
 
 | Keybind       | Action                          |
 |---------------|---------------------------------|
@@ -127,6 +128,7 @@ https://github.com/wbthomason/packer.nvim
 | `<leader>cs`  | Rename TMUX session         |
 
 ### Trouble ###
+***
 
 | Keybind       | Action                                         |
 |---------------|------------------------------------------------|
