@@ -108,6 +108,8 @@ https://github.com/wbthomason/packer.nvim
 | `=`           | Show changes in file under the cursor       |
 
 ### Gitsigns ###
+***
+
 | Keybind       | Action                             |
 |---------------|------------------------------------|
 | `<leader>ph`  | Preview hunk in floating UI        |
