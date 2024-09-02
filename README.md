@@ -112,7 +112,10 @@ https://github.com/wbthomason/packer.nvim
 
 | Keybind       | Action                             |
 |---------------|------------------------------------|
-| `<leader>ph`  | Preview hunk in floating UI        |
+| `<leader>ph`  | Preview hunk                       |
+| `<leader>sh`  | Stage hunk                         |
+| `<leader>hh`  | Reset hunk                         |
+| `<leader>ush` | Undo stage hunk                    |
 
 
 ### Telescope ###
