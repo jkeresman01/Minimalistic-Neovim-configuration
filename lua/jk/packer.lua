@@ -11,7 +11,6 @@ return require("packer").startup(function(use)
         requires = { { "nvim-lua/plenary.nvim" } },
     })
 
-
     use("igorgue/danger")
 
     -- use("yuttie/hydrangea-vim")
