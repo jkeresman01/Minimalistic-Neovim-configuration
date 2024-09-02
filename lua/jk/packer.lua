@@ -11,7 +11,11 @@ return require("packer").startup(function(use)
         requires = { { "nvim-lua/plenary.nvim" } },
     })
 
-    use("techtuner/aura-neovim")
+
+    use("igorgue/danger")
+
+    -- use("yuttie/hydrangea-vim")
+    -- use("techtuner/aura-neovim")
 
     use("nvim-lua/popup.nvim")
     use("MunifTanjim/nui.nvim")
@@ -47,7 +51,7 @@ return require("packer").startup(function(use)
     use("jkeresman01/java-method-search.nvim")
     use("/home/josip/git/nvim/java-boilerplate.nvim")
 
-    use{ "folke/trouble.nvim", cmd = "Trouble" }
+    use({ "folke/trouble.nvim", cmd = "Trouble" })
 
     use("lewis6991/gitsigns.nvim")
 

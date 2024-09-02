@@ -1,1 +1,1 @@
-vim.cmd("colorscheme aura")
+vim.cmd("colorscheme danger")
