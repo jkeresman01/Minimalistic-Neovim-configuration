@@ -101,6 +101,8 @@ https://github.com/wbthomason/packer.nvim
 | Keybind       | Action                                      |
 |---------------|---------------------------------------------|
 | `<leader>g`   | Opens vim-fugitive in vertical split        |
+| `<leader>gc`  | Git commit                                  |
+| `<leader>gca` | Git commit --amend                          |
 | `<leader>gb`  | Git blame                                   |
 | `<leader>gl`  | Git log                                     |
 | `<leader>gl`  | Git log --oneline                           |
