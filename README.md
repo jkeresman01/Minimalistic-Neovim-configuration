@@ -64,7 +64,6 @@ https://github.com/wbthomason/packer.nvim
 
 ### Split navigation ###
 ***
-
 | Keybind       | Action         |
 |---------------|----------------|
 | `<c-h>`       | Move to left   |
@@ -93,21 +92,27 @@ https://github.com/wbthomason/packer.nvim
 | `<gd>`        | Jumps to the definition of the symbol under the cursor                            |
 | `<F4>`        | Selects a code action available at the current cursor position                    |
 | `<C-n>`       | Goes to next available suggested completion option                                |
-| `<CR>`        | Confirms suggested completion                                                     |
+| `<CR>`        | Confirms suggested completion option                                              |
 
-### Fugitive ###
+### Fugative ###
 ***
 
-| Keybind       | Action                                      |
-|---------------|---------------------------------------------|
-| `<leader>g`   | Opens vim-fugitive in vertical split        |
-| `<leader>gc`  | Git commit                                  |
-| `<leader>gca` | Git commit --amend                          |
-| `<leader>gb`  | Git blame                                   |
-| `<leader>gl`  | Git log                                     |
-| `<leader>gl`  | Git log --oneline                           |
-| `-`           | Stage or unstage file under the cursor      |
-| `=`           | Show changes in file under the cursor       |
+| Keybind       | Action                                        |
+|---------------|-----------------------------------------------|
+| `<leader>g`   | Opens vim-fugitive in vertical split (:0Git)  |
+| `<leader>gc`  | Git commit                                    |
+| `<leader>gca` | Git commit --amend                            |
+| `<leader>gb`  | Git blame %                                   |
+| `<leader>gl`  | Git log %                                     |
+| `<leader>glo` | Git log --oneline %                           |
+| `<leader>gll` | Git log -1 HEAD %                             |
+| `<leader>gl5` | Git log -n 5                                  |
+| `<leader>glp` | Git log --pretty=format:"%h - %an, %ar : %s"  |
+| `<leader>grs` | Git reset --soft HEAD~1                       |
+| `<leader>grh` | Git reset --hard HEAD~1                       |
+| `<leader>glr` | Git log --reverse --no-decorate               |
+| `-`           | Stage or unstage file under the cursor        |
+| `=`           | Show changes in file under the cursor         |
 
 ### Gitsigns ###
 ***
@@ -122,6 +127,7 @@ https://github.com/wbthomason/packer.nvim
 
 ### Telescope ###
 ***
+
 | Keybind       | Action          |
 |---------------|-----------------|
 | `<leader>ff`  | Find files      |
@@ -133,18 +139,18 @@ https://github.com/wbthomason/packer.nvim
 ### TMUX switch ###
 ***
 
-| Keybind       | Action                      |
-|---------------|-----------------------------|
-| `<C-f>`       | Open TMUX switch  UI        |
-| `<leader>cs`  | Create new TMUX session     |
-| `<leader>cs`  | Rename TMUX session         |
+| Keybind       | Action                                     |
+|---------------|--------------------------------------------|
+| `<C-f>`       | Open TMUX switch UI                        |
+| `<leader>cs`  | Create new TMUX session with given name    |
+| `<leader>cs`  | Rename current TMUX session                |
 
 ### Trouble ###
 ***
 
 | Keybind       | Action                                         |
 |---------------|------------------------------------------------|
-| `<leader>t`   | Trouble diagnostics toggle                     |
+| `<leader>tt`  | Trouble diagnostics toggle                     |
 | `<leader>t`   | Trouble diagnostics toggle (current buffer)    |
 
 
@@ -158,7 +164,7 @@ https://github.com/wbthomason/packer.nvim
 | `<C-q>`       | Go to first file in Harpoon navigation list                   |
 | `<C-w>`       | Go to second file in Harpoon navigation list                  |
 | `<C-t>`       | Go to third file in Harpoon navigation list                   |
-| `<C-z>`       | Run tmux switch script located under tmux_scripts             |
+| `<C-z>`       | Run tmux switch script located under /tmux_scripts eirectory  |
 ***
 
 
