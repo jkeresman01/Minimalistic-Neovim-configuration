@@ -145,6 +145,7 @@ https://github.com/wbthomason/packer.nvim
 | `<leader>cs`  | Create new TMUX session with given name    |
 | `<leader>cs`  | Rename current TMUX session                |
 
+
 ### Trouble ###
 ***
 
@@ -164,7 +165,7 @@ https://github.com/wbthomason/packer.nvim
 | `<C-q>`       | Go to first file in Harpoon navigation list                   |
 | `<C-w>`       | Go to second file in Harpoon navigation list                  |
 | `<C-t>`       | Go to third file in Harpoon navigation list                   |
-| `<C-z>`       | Run tmux switch script located under /tmux_scripts eirectory  |
+| `<C-z>`       | Run tmux switch script located under /tmux_scripts directory  |
 ***
 
 
