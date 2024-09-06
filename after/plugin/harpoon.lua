@@ -13,9 +13,11 @@ end)
 vim.keymap.set("n", "<C-q>", function()
     ui.nav_file(1)
 end)
+
 vim.keymap.set("n", "<C-w>", function()
     ui.nav_file(2)
 end)
+
 vim.keymap.set("n", "<C-t>", function()
     ui.nav_file(3)
 end)
