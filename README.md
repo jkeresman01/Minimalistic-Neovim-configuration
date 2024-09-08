@@ -108,6 +108,7 @@ https://github.com/wbthomason/packer.nvim
 | `<leader>gll` | Git log -1 HEAD %                             |
 | `<leader>gl5` | Git log -n 5                                  |
 | `<leader>glp` | Git log --pretty=format:"%h - %an, %ar : %s"  |
+| `<leader>glg` | Git log --graph                               |
 | `<leader>grs` | Git reset --soft HEAD~1                       |
 | `<leader>grh` | Git reset --hard HEAD~1                       |
 | `<leader>glr` | Git log --reverse --no-decorate               |
