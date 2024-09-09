@@ -12,9 +12,7 @@ return require("packer").startup(function(use)
     })
 
     use("igorgue/danger")
-
-    -- use("yuttie/hydrangea-vim")
-    -- use("techtuner/aura-neovim")
+    use("techtuner/aura-neovim")
 
     use("nvim-lua/popup.nvim")
     use("MunifTanjim/nui.nvim")
