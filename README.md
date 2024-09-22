@@ -1,20 +1,67 @@
-# Minimalistic neovim configuration #
+<div align="center">
+ 
+  <h1>Minimalistic neovim configuration</h1>
+  <img src="https://raw.githubusercontent.com/neovim/neovim.github.io/master/logos/neovim-logo-300x87.png" alt="Neovim">
+
+  <h3>The pragmatic programmer - TIP 27 "<i>Achive Editor Fluency"</i></h3>
+
+  <h6>
+   "Every maker starts their journey with the basic set of good quality tools. A woodworker might need rules, gauges, a couple of saws, some good planes, fine chisels, drills and braces, mallets, and clamps. These tools will be lovingly choosen, will be built to last, will perform specific jobs with litle overlap with other tools, and, perhaps and most importantly, will feel right in the budding woodworker's hands."
+  </h6>
+
+  <h6>
+   "<b>Then begins the process of learning and adaptations.</b> Each tool will have its own personallity and quirks, and will need its own special handling. Each must be sharpened in a unique way, or held just so. Over time each will wear according to use, until the grip looks like a mold of woodworker's hands and cutting the surface aligns perfectly with the angle at which tool is held. <h5>At this point, the tools become conduits from the maker's brain to the finished product - they have become extensions of their hands"</h5>
+  </h6>
+
+  <h6>--- David Thomas, Andrew Hunt, "<i>The Pragmatic Programmer</i>" </h6>
 
 [![asciicast](https://asciinema.org/a/659647.svg)](https://asciinema.org/a/659647)
+  
+</div>
 
-## Plugin manager ##
+## Table of Contents
+
+- [Plugin manager](#plugin-manager)
+- [Plugins](#plugins)
+   - [Functionality](#functionality)
+   - [Aesthetics](#aesthetics)
+- [Remaps](#remaps)
+   - [General](#general)
+   - [Split navigation](#split-navigation)
+   - [Set - Unset](#set-unset)
+   - [LSP](#lsp)
+   - [Fugative](#fugative)
+   - [Gitsigns](#gitsigns)
+   - [Telescope](#telescope)
+   - [Tmux-switch](#tmux-switch)
+   - [Harpoon](#harpoon)
+   - [Trouble](#trouble)
+- [Installation](#installation)
+
+
+## Plugin manager <a name="plugin-manager"></a> ##
 Although unmaintained from August, 2023, I'm still using Packer as my plugin manager.
 
+For more information about packer you can refer to:
+https://github.com/wbthomason/packer.nvim
+
+
 Installing packer:
+
+> Unix, Linux
 ```
 git clone --depth 1 https://github.com/wbthomason/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ```
 
-You can find more information about packer here:
-https://github.com/wbthomason/packer.nvim
+> Windows Powershell
 
-## Plugins ##
+```shell
+git clone https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data\site\pack\packer\start\packer.nvim"
+```
+
+
+## Plugins <a name="plugins"></a> ##
 
 *  Telescope && harpoon for fuzzy finding and file navigation.
 
@@ -28,7 +75,7 @@ https://github.com/wbthomason/packer.nvim
   
 *  Treesitter as a syntax highlighter.
 
-#### Functionality #####
+#### Functionality <a name="functionality"></a>  #####
 ***
 * [Telescope](https://github.com/nvim-telescope/telescope.nvim)
 * [TMUX switch](https://github.com/jkeresman01/tmux-switch.nvim)
@@ -39,14 +86,14 @@ https://github.com/wbthomason/packer.nvim
 * [Nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
 * [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 
-#### Aesthetics #####
+#### Aesthetics <a name="aesthetics"></a>   #####
 ***
 * [Aura (colorscheme)](https://github.com/techtuner/aura-neovim)
 * [Lualine](https://github.com/nvim-lualine/lualine.nvim)
 
-## Remaps ##
+## Remaps <a name="remaps"></a>  ##
 ***
-### General ###
+### General  <a name="general"></a> ###
 
 | Keybind       | Action                          |
 |---------------|---------------------------------|
@@ -62,7 +109,7 @@ https://github.com/wbthomason/packer.nvim
 | `<leader>s`   | Source file in current buffer   |
 
 
-### Split navigation ###
+### Split navigation <a name="split-navigation"></a> ###
 ***
 | Keybind       | Action         |
 |---------------|----------------|
@@ -71,7 +118,7 @@ https://github.com/wbthomason/packer.nvim
 | `<c-k>`       | Move up        |
 | `<c-j>`       | Move down      |
 
-### Set - Unset ###
+### Set - Unset <a name="set-unset"></a> ###
 ***
 
 | Keybind       | Action                          |
@@ -83,7 +130,7 @@ https://github.com/wbthomason/packer.nvim
 | `<leader>sn`  | Enable line numbers             |
 | `<leader>snn` | Disable line numbers            |
 
-### LSP ###
+### LSP <a name="lsp"></a>  ###
 ***
 
 | Keybind       | Action                                                                            |
@@ -94,7 +141,7 @@ https://github.com/wbthomason/packer.nvim
 | `<C-n>`       | Goes to next available suggested completion option                                |
 | `<CR>`        | Confirms suggested completion option                                              |
 
-### Fugative ###
+### Fugative <a name="fugative"></a>  ###
 ***
 
 | Keybind       | Action                                        |
@@ -116,7 +163,7 @@ https://github.com/wbthomason/packer.nvim
 | `-`           | Stage or unstage file under the cursor        |
 | `=`           | Show changes in file under the cursor         |
 
-### Gitsigns ###
+### Gitsigns <a name="gitsigns"></a>  ###
 ***
 
 | Keybind       | Action                             |
@@ -127,7 +174,7 @@ https://github.com/wbthomason/packer.nvim
 | `<leader>ush` | Undo stage hunk                    |
 
 
-### Telescope ###
+### Telescope <a name="telescope"></a>  ###
 ***
 
 | Keybind       | Action          |
@@ -138,7 +185,7 @@ https://github.com/wbthomason/packer.nvim
 | `<leader>fh`  | Help tags       |
 
 
-### TMUX switch ###
+### TMUX switch <a name="tmux-switch"></a>  ###
 ***
 
 | Keybind       | Action                                     |
@@ -148,7 +195,7 @@ https://github.com/wbthomason/packer.nvim
 | `<leader>cs`  | Rename current TMUX session                |
 
 
-### Trouble ###
+### Trouble <a name="trouble"></a> ###
 ***
 
 | Keybind       | Action                                         |
@@ -157,7 +204,7 @@ https://github.com/wbthomason/packer.nvim
 | `<leader>t`   | Trouble diagnostics toggle (current buffer)    |
 
 
-### Harpoon ###
+### Harpoon <a name="harpoon"></a> ###
 ***
 
 | Keybind       | Action                                                        |
@@ -171,7 +218,7 @@ https://github.com/wbthomason/packer.nvim
 ***
 
 
-## Installation ##
+## Installation <a name="installation"></a>  ##
 If you already have nvim configuration, you might want to do a backup first and then install this one with:
 ```
 git -C ~/.config/ clone https://github.com/jkeresman01/Minimalistic-Neovim-configuration.git nvim
