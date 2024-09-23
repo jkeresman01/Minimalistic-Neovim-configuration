@@ -192,7 +192,7 @@ git clone https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data
 |---------------|--------------------------------------------|
 | `<C-f>`       | Open TMUX switch UI                        |
 | `<leader>cs`  | Create new TMUX session with given name    |
-| `<leader>cs`  | Rename current TMUX session                |
+| `<leader>rs`  | Rename current TMUX session                |
 
 
 ### Trouble <a name="trouble"></a> ###
