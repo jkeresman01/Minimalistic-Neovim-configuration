@@ -43,15 +43,25 @@ return require("packer").startup(function(use)
         requires = { "nvim-tree/nvim-web-devicons", opt = true },
     })
 
-    use("/home/josip/git/nvim/tmux-switch.nvim")
     use("jkeresman01/java-maven-test.nvim")
     use("jkeresman01/java-method-search.nvim")
-    use("/home/josip/git/nvim/java-boilerplate.nvim")
 
     use({ "folke/trouble.nvim", cmd = "Trouble" })
 
     use("lewis6991/gitsigns.nvim")
 
     use("nvim-lua/plenary.nvim")
+
     use("ThePrimeagen/harpoon")
+
+    use {
+        "rcarriga/nvim-notify",
+        config = function()
+            require("notify").setup({
+                stages = "fade_in_slide_out",
+            })
+            vim.notify = require("notify")
+        end
+    }
+
 end)
