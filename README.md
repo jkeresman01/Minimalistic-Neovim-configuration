@@ -3,17 +3,7 @@
   <h1>Minimalistic neovim configuration</h1>
   <img src="https://raw.githubusercontent.com/neovim/neovim.github.io/master/logos/neovim-logo-300x87.png" alt="Neovim">
 
-  <h3>The pragmatic programmer - TIP 27 "<i>Achive Editor Fluency"</i></h3>
-
-  <h6>
-   "Every maker starts their journey with the basic set of good quality tools. A woodworker might need rules, gauges, a couple of saws, some good planes, fine chisels, drills and braces, mallets, and clamps. These tools will be lovingly choosen, will be built to last, will perform specific jobs with litle overlap with other tools, and, perhaps and most importantly, will feel right in the budding woodworker's hands."
-  </h6>
-
-  <h6>
-   "<b>Then begins the process of learning and adaptations.</b> Each tool will have its own personallity and quirks, and will need its own special handling. Each must be sharpened in a unique way, or held just so. Over time each will wear according to use, until the grip looks like a mold of woodworker's hands and cutting the surface aligns perfectly with the angle at which tool is held. <h5>At this point, the tools become conduits from the maker's brain to the finished product - they have become extensions of their hands"</h5>
-  </h6>
-
-  <h6>--- David Thomas, Andrew Hunt, "<i>The Pragmatic Programmer</i>" </h6>
+  <h6>---------------- [ Just my Neovim config ] ----------------</i></h6>
 
 [![asciicast](https://asciinema.org/a/659647.svg)](https://asciinema.org/a/659647)
   
