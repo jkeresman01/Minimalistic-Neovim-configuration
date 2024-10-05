@@ -127,9 +127,14 @@ git clone https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data
 |---------------|-----------------------------------------------------------------------------------|
 | `<K>`         | Displays hover information about the symbol under the cursor in a floating window |
 | `<gd>`        | Jumps to the definition of the symbol under the cursor                            |
+| `<K>`         | Definition on hover                                                               | 
+| `<gr>`        | Show references                                                                   | 
+| `<gD>`        | Declaration                                                                       | 
+| `<gi>`        | Go to implementation                                                              | 
 | `<F4>`        | Selects a code action available at the current cursor position                    |
 | `<C-n>`       | Goes to next available suggested completion option                                |
 | `<CR>`        | Confirms suggested completion option                                              |
+| `<leader>rn`  | Rename stuff under the cursor                                                     |
 
 ### Fugative <a name="fugative"></a>  ###
 ***
