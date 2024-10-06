@@ -50,19 +50,39 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 git clone https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data\site\pack\packer\start\packer.nvim"
 ```
 
-
 ## Plugins <a name="plugins"></a> ##
 
+```shell
+nvim/
+├── after
+│   └── plugin
+│       ├── fugative.lua
+│       ├── gitsigns.lua
+│       ├── harpoon.lua
+│       ├── lsp.lua
+│       ├── lualine.lua
+│       ├── telescope.lua
+│       ├── tmux-switch.lua
+│       ├── treesiter.lua
+│       └── trouble.lua
+├── init.lua
+├── lua
+│   └── jk
+│       ├── colorscheme.lua
+│       ├── init.lua
+│       ├── packer.lua
+│       ├── remaps.lua
+│       └── set.lua
+├── README.md
+└── tmux_script
+    └── tmux_switch.sh
+```
+
 *  Telescope && harpoon for fuzzy finding and file navigation.
-
 *  TMUX switch for TMUX session managment within Neovim
-  
 *  Vim-fugative && gitsigns as git integration tools
-
 *  Mason (lsp, formatter, linter).
-  
 *  Nvim-cmp as a completion engine.
-  
 *  Treesitter as a syntax highlighter.
 
 #### Functionality <a name="functionality"></a>  #####
