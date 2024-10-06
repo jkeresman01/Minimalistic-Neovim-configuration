@@ -12,6 +12,7 @@
 ## Table of Contents
 
 - [Plugin manager](#plugin-manager)
+- [Repository structure](#repo)
 - [Plugins](#plugins)
    - [Functionality](#functionality)
    - [Aesthetics](#aesthetics)
@@ -50,7 +51,7 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 git clone https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data\site\pack\packer\start\packer.nvim"
 ```
 
-## Plugins <a name="plugins"></a> ##
+## Repository structure <a name="repo"></a> ##
 
 ```shell
 nvim/
@@ -78,6 +79,7 @@ nvim/
     └── tmux_switch.sh
 ```
 
+## Plugins <a name="plugins"></a> ##
 *  Telescope && harpoon for fuzzy finding and file navigation.
 *  TMUX switch for TMUX session managment within Neovim
 *  Vim-fugative && gitsigns as git integration tools
