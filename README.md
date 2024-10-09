@@ -86,6 +86,7 @@ nvim/
 *  Mason (lsp, formatter, linter).
 *  Nvim-cmp as a completion engine.
 *  Treesitter as a syntax highlighter.
+*  Vim commentary for making commenting code a lot easier
 
 #### Functionality <a name="functionality"></a>  #####
 ***
@@ -97,6 +98,7 @@ nvim/
 * [Mason](https://github.com/williamboman/mason.nvim)
 * [Nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
 * [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+* [Vim commentary](https://github.com/tpope/vim-commentary)
 
 #### Aesthetics <a name="aesthetics"></a>   #####
 ***
