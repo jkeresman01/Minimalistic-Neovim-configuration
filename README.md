@@ -89,6 +89,7 @@ nvim/
 *  Vim commentary for making commenting code a lot easier
 
 #### Functionality <a name="functionality"></a>  #####
+
 ***
 * [Telescope](https://github.com/nvim-telescope/telescope.nvim)
 * [TMUX switch](https://github.com/jkeresman01/tmux-switch.nvim)
