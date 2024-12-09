@@ -239,7 +239,7 @@ nvim/
 
 
 ## Installation <a name="installation"></a>  ##
-If you already have nvim configuration, you might want to do a backup first and then install this one with:
+If you already have nvim configuration, you might want to do a backup first and then clone this one with:
 ```
 git -C ~/.config/ clone https://github.com/jkeresman01/Minimalistic-Neovim-configuration.git nvim
 ```
