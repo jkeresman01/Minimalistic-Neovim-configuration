@@ -18,6 +18,7 @@
    - [Aesthetics](#aesthetics)
 - [Remaps](#remaps)
    - [General](#general)
+   - [Floating terminal](#floating-terminal)
    - [Split navigation](#split-navigation)
    - [Set - Unset](#set-unset)
    - [LSP](#lsp)
@@ -122,6 +123,14 @@ nvim/
 | `<leader>b`   | Go to previous buffer           |
 | `<leader>v`   | Vertical split                  |
 | `<leader>s`   | Source file in current buffer   |
+
+
+### Floating terminal <a name="floating-terminal"></a> ###
+
+***
+| Keybind       | Action                     |
+|---------------|----------------------------|
+| `<leader>t`   | Toggle floating terminal   |
 
 
 ### Split navigation <a name="split-navigation"></a> ###
