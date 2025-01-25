@@ -18,7 +18,6 @@
    - [Aesthetics](#aesthetics)
 - [Remaps](#remaps)
    - [General](#general)
-   - [Floating terminal](#floating-terminal)
    - [Split navigation](#split-navigation)
    - [Set - Unset](#set-unset)
    - [LSP](#lsp)
@@ -27,6 +26,7 @@
    - [Telescope](#telescope)
    - [Tmux-switch](#tmux-switch)
    - [Harpoon](#harpoon)
+   - [Floating terminal](#floating-terminal)
    - [Trouble](#trouble)
 - [Installation](#installation)
 
@@ -123,14 +123,6 @@ nvim/
 | `<leader>b`   | Go to previous buffer           |
 | `<leader>v`   | Vertical split                  |
 | `<leader>s`   | Source file in current buffer   |
-
-
-### Floating terminal <a name="floating-terminal"></a> ###
-
-***
-| Keybind       | Action                     |
-|---------------|----------------------------|
-| `<leader>t`   | Toggle floating terminal   |
 
 
 ### Split navigation <a name="split-navigation"></a> ###
@@ -244,6 +236,13 @@ nvim/
 | `<C-w>`       | Go to second file in Harpoon navigation list                  |
 | `<C-t>`       | Go to third file in Harpoon navigation list                   |
 | `<C-z>`       | Run tmux switch script located under /tmux_scripts directory  |
+***
+
+### Floating terminal <a name="terminal"></a> ###
+***
+| Keybind       | Action                                                        |
+|---------------|---------------------------------------------------------------|
+| `<leader>ot`  | Toggle floating terminal                                      |
 ***
 
 
