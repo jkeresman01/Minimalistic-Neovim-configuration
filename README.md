@@ -153,7 +153,6 @@ nvim/
 |---------------|-----------------------------------------------------------------------------------|
 | `<K>`         | Displays hover information about the symbol under the cursor in a floating window |
 | `<gd>`        | Jumps to the definition of the symbol under the cursor                            |
-| `<K>`         | Definition on hover                                                               |
 | `<gr>`        | Show references                                                                   |
 | `<gD>`        | Declaration                                                                       |
 | `<gi>`        | Go to implementation                                                              |
