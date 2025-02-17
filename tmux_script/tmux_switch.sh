@@ -1,5 +1,17 @@
 #!/usr/bin/env bash
 
+#
+#  ███╗   ██╗███████╗ ██████╗ ██╗   ██╗██╗███╗   ███╗
+#  ████╗  ██║██╔════╝██╔═══██╗██║   ██║██║████╗ ████║
+#  ██╔██╗ ██║█████╗  ██║   ██║██║   ██║██║██╔████╔██║
+#  ██║╚██╗██║██╔══╝  ██║   ██║╚██╗ ██╔╝██║██║╚██╔╝██║
+#  ██║ ╚████║███████╗╚██████╔╝ ╚████╔╝ ██║██║ ╚═╝ ██║
+#  ╚═╝  ╚═══╝╚══════╝ ╚═════╝   ╚═══╝  ╚═╝╚═╝     ╚═╝
+#
+#  File: tmux_switch.sh
+#  Description: switching between tmux sessions made easily
+#  Author: Josip Keresman
+
 # Check if tmux is running, grep PID for tmux
 is_tmux_running=$(pgrep tmux)
 
