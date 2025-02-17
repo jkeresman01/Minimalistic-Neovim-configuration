@@ -7,7 +7,7 @@
 -- ╚═╝  ╚═══╝╚══════╝ ╚═════╝   ╚═══╝  ╚═╝╚═╝     ╚═╝
 --
 -- File: remaps.lua
--- Description: Some weird remaps that have sense only to me
+-- Description: Some weird remaps that make sense only to me
 -- Author: Josip Keresman
 
 -- leader key
