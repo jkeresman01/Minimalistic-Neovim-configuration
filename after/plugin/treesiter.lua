@@ -7,7 +7,7 @@
 -- ╚═╝  ╚═══╝╚══════╝ ╚═════╝   ╚═══╝  ╚═╝╚═╝     ╚═╝
 --
 -- File: treesitter.lua
--- Description: treesitte, really cool stuff, mostly for syntax highlights
+-- Description: treesitter, really cool stuff, mostly for syntax highlights
 -- Author: Josip Keresman
 
 require("nvim-treesitter.configs").setup({

@@ -7,7 +7,7 @@
 -- ╚═╝  ╚═══╝╚══════╝ ╚═════╝   ╚═══╝  ╚═╝╚═╝     ╚═╝
 --
 -- File: trouble.lua
--- Description: Naviagte to LSP diagnostics in reallt cool way
+-- Description: Navigate to LSP diagnostics in really cool way
 -- Author: Josip Keresman
 
 require("trouble").setup({})

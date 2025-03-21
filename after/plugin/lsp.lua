@@ -7,7 +7,7 @@
 -- ╚═╝  ╚═══╝╚══════╝ ╚═════╝   ╚═══╝  ╚═╝╚═╝     ╚═╝
 --
 -- File: lsp.lua
--- Description: LSP specific stuff
+-- Description: LSP specific stuff, honestly just bunch of nonsense
 -- Author: Josip Keresman
 
 local lsp_zero = require("lsp-zero")
@@ -88,4 +88,4 @@ require("lspconfig").omnisharp.setup({
     capabilities = capabilities,
     on_attach = lsp_zero.on_attach,
 })
-
+g

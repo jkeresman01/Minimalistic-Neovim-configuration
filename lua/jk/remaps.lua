@@ -23,7 +23,7 @@ vim.keymap.set("n", "<leader>s", vim.cmd.so)
 vim.keymap.set("n", "<leader>ss", "<cmd>set spell")
 vim.keymap.set("n", "<leader>sns", "<cmd>set nospell")
 vim.keymap.set("n", "<leader>srn", "<cmd>set relativenumber")
-vim.keymap.set("n", "<leader>snrn", "<cmd>set relativenumber")
+vim.keymap.set("n", "<leader>snrn", "<cmd>set norelativenumber")
 vim.keymap.set("n", "<leader>sn", "<cmd>set number")
 vim.keymap.set("n", "<leader>snn", "<cmd>set nonumber")
 

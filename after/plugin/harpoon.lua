@@ -7,7 +7,7 @@
 -- ╚═╝  ╚═══╝╚══════╝ ╚═════╝   ╚═══╝  ╚═╝╚═╝     ╚═╝
 --
 -- File: harpoon.lua
--- Description: With this you can switch between files that use most often really quick, someting like intellijs or visual studios shift+tab
+-- Description: With this you can switch between files that you use most often really quick, someting like intellijs or visual studios ctrl+tab
 -- Author: Josip Keresman
 
 local mark = require("harpoon.mark")

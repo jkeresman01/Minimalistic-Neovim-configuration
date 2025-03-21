@@ -7,7 +7,7 @@
 -- ╚═╝  ╚═══╝╚══════╝ ╚═════╝   ╚═══╝  ╚═╝╚═╝     ╚═╝
 --
 -- File: lualine.lua
--- Description: This adds really cool line and that's it
+-- Description: This adds really cool line and that's it (down on the buttom), you'll see
 -- Author: Josip Keresman
 
 require("lualine").setup({
