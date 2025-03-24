@@ -88,4 +88,3 @@ require("lspconfig").omnisharp.setup({
     capabilities = capabilities,
     on_attach = lsp_zero.on_attach,
 })
-g
