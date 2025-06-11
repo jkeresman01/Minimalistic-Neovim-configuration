@@ -27,7 +27,9 @@
    - [Tmux-switch](#tmux-switch)
    - [Harpoon](#harpoon)
    - [Floating terminal](#floating-terminal)
+   - [Active files](#active-files)
    - [Trouble](#trouble)
+
 - [Installation](#installation)
 
 
@@ -63,6 +65,7 @@ nvim/
 │       ├── harpoon.lua
 │       ├── lsp.lua
 │       ├── lualine.lua
+│       ├── active-files.lua
 │       ├── telescope.lua
 │       ├── tmux-switch.lua
 │       ├── treesiter.lua
@@ -86,6 +89,7 @@ nvim/
 *  Vim-fugative && gitsigns as git integration tools
 *  Mason (lsp, formatter, linter).
 *  Nvim-cmp as a completion engine.
+*  Active files - The thing from visual studio and jetbrains on ctrl+tab
 *  Treesitter as a syntax highlighter.
 *  Vim commentary for making commenting code a lot easier
 
@@ -244,6 +248,11 @@ nvim/
 | `<leader>ot`  | Toggle floating terminal                                      |
 ***
 
+### Active files <a name="active-files"></a> ###
+| Keybind         | Action                                                        |
+|-----------------|---------------------------------------------------------------|
+| `<leader><Tab>` | Open Active files UI                                          |
+| `<CR>`          | Switch to selected file                                       |
 
 ## Installation <a name="installation"></a>  ##
 If you already have nvim configuration, you might want to do a backup first and then clone this one with:

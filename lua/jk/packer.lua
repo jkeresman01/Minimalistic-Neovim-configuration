@@ -27,6 +27,8 @@ return require("packer").startup(function(use)
     use("jkeresman01/dontuse.nvim")
     use("techtuner/aura-neovim")
 
+    use("jkeresman01/active-files.nvim");
+
     use("stevearc/oil.nvim")
 
     use("tpope/vim-commentary")
