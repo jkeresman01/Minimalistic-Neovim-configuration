@@ -239,20 +239,24 @@ nvim/
 | `<C-w>`       | Go to second file in Harpoon navigation list                  |
 | `<C-t>`       | Go to third file in Harpoon navigation list                   |
 | `<C-z>`       | Run tmux switch script located under /tmux_scripts directory  |
+
+
+### Floating terminal <a name="floating-terminal"></a> ###
 ***
 
-### Floating terminal <a name="terminal"></a> ###
-***
 | Keybind       | Action                                                        |
 |---------------|---------------------------------------------------------------|
 | `<leader>ot`  | Toggle floating terminal                                      |
-***
+
 
 ### Active files <a name="active-files"></a> ###
+***
+
 | Keybind         | Action                                                        |
 |-----------------|---------------------------------------------------------------|
 | `<leader><Tab>` | Open Active files UI                                          |
 | `<CR>`          | Switch to selected file                                       |
+
 
 ## Installation <a name="installation"></a>  ##
 If you already have nvim configuration, you might want to do a backup first and then clone this one with:
