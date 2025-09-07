@@ -113,17 +113,22 @@ return require("packer").startup(function(use)
 
     ------------------------------------------------------------------------
     --
-    -- Personal / Navigation Utilities
+    --  Navigation 
     --
     -- ThePrimeagen/harpoon          : Quick file marks and navigation.
     -- jkeresman01/active-files.nvim : Ctrl+Tab-like file switcher.
     -- jkeresman01/tmux-switch.nvim  : Switch or create tmux sessions.
-    -- jkeresman01/dontuse.nvim      : Experimental utilities.
     --
     ------------------------------------------------------------------------
     use("ThePrimeagen/harpoon")
     use("jkeresman01/active-files.nvim")
     use("jkeresman01/tmux-switch.nvim")
+
+    ------------------------------------------------------------------------
+    --
+    -- jkeresman01/dontuse.nvim      : Colorscheme
+    --
+    ------------------------------------------------------------------------
     use("jkeresman01/dontuse.nvim")
 
     ------------------------------------------------------------------------
