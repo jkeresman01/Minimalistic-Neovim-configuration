@@ -55,4 +55,3 @@ vim.keymap.set("n", "<c-k>", "<cmd>wincmd k<CR>")
 vim.keymap.set("n", "<c-j>", "<cmd>wincmd j<CR>")
 vim.keymap.set("n", "<c-h>", "<cmd>wincmd h<CR>")
 vim.keymap.set("n", "<c-l>", "<cmd>wincmd l<CR>")
-
