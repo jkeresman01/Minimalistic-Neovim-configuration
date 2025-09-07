@@ -113,7 +113,7 @@ return require("packer").startup(function(use)
 
     ------------------------------------------------------------------------
     --
-    --  Navigation 
+    --  Navigation
     --
     -- ThePrimeagen/harpoon          : Quick file marks and navigation.
     -- jkeresman01/active-files.nvim : Ctrl+Tab-like file switcher.
