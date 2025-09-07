@@ -29,7 +29,18 @@ require("nvim-treesitter.configs").setup({
   -- Add or remove languages as needed.
   --
   --------------------------------------------------------------------------
-  ensure_installed = { "java", "rust", "cpp", "c", "lua", "vim", "vimdoc", "query" },
+  ensure_installed = {
+      "java",
+      "rust",
+      "cpp",
+      "erlang",
+      "elixir",
+      "c",
+      "lua",
+      "vim",
+      "vimdoc",
+      "query"
+  },
 
   --------------------------------------------------------------------------
   --
