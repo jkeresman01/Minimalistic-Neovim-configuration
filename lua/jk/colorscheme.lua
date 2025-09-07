@@ -1,3 +1,4 @@
+----------------------------------------------------------------------------
 --
 -- ███╗   ██╗███████╗ ██████╗ ██╗   ██╗██╗███╗   ███╗
 -- ████╗  ██║██╔════╝██╔═══██╗██║   ██║██║████╗ ████║
@@ -7,7 +8,10 @@
 -- ╚═╝  ╚═══╝╚══════╝ ╚═════╝   ╚═══╝  ╚═╝╚═╝     ╚═╝
 --
 -- File: colorscheme.lua
--- Description: really ugly colorscheme, dontuse
--- Authorn: Josip Keresman
+-- Description: really ugly colorscheme, dontuse — seriously, don't use it.
+-- Author: Josip Keresman
+--
+----------------------------------------------------------------------------
 
 vim.cmd("colorscheme dontuse")
+

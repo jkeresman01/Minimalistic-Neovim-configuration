@@ -1,3 +1,4 @@
+----------------------------------------------------------------------------
 --
 -- ███╗   ██╗███████╗ ██████╗ ██╗   ██╗██╗███╗   ███╗
 -- ████╗  ██║██╔════╝██╔═══██╗██║   ██║██║████╗ ████║
@@ -7,10 +8,26 @@
 -- ╚═╝  ╚═══╝╚══════╝ ╚═════╝   ╚═══╝  ╚═╝╚═╝     ╚═╝
 --
 -- File: active-files.lua
--- Description: The thing from visual studio or jetbrain products on <ctrl+tab>
+-- Description: The thing from Visual Studio / JetBrains on <Ctrl-Tab>.
 -- Author: Josip Keresman
+--
+----------------------------------------------------------------------------
 
+----------------------------------------------------------------------------
+--
+-- Setup
+-- Initialize the Active Files plugin with defaults.
+--
+----------------------------------------------------------------------------
 require("active-files").setup({})
 
-vim.keymap.set("n", "<leader><Tab>", "<CMD>ShowActiveFiles<CR>")
-vim.keymap.set("n", "<CR>", "<CMD>SelectActiveFile<CR>")
+----------------------------------------------------------------------------
+--
+-- Keymaps
+-- <leader><Tab> : Open Active Files UI
+-- <CR>          : Select highlighted file
+--
+----------------------------------------------------------------------------
+vim.keymap.set("n", "<leader><Tab>", "<CMD>ShowActiveFiles<CR>", { desc = "Active Files: open UI" })
+vim.keymap.set("n", "<CR>", "<CMD>SelectActiveFile<CR>",        { desc = "Active Files: select file" })
+

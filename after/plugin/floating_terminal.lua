@@ -1,3 +1,4 @@
+----------------------------------------------------------------------------
 --
 -- ███╗   ██╗███████╗ ██████╗ ██╗   ██╗██╗███╗   ███╗
 -- ████╗  ██║██╔════╝██╔═══██╗██║   ██║██║████╗ ████║
@@ -7,9 +8,17 @@
 -- ╚═╝  ╚═══╝╚══════╝ ╚═════╝   ╚═══╝  ╚═╝╚═╝     ╚═╝
 --
 -- File: floating_terminal.lua
--- Description: Remaps for toggling on/off floating terminal
+-- Description: Remaps for toggling the floating terminal on/off.
 -- Author: Josip Keresman
+--
+----------------------------------------------------------------------------
 
-vim.keymap.set("n", "<leader>ot", "<cmd>FloatingTerminal<cr>")
-vim.keymap.set("t", "<leader>ot", "<cmd>FloatingTerminal<cr>")
+----------------------------------------------------------------------------
+--
+-- Keymaps
+-- <leader>ot : Toggle floating terminal (normal and terminal modes).
+--
+----------------------------------------------------------------------------
+vim.keymap.set("n", "<leader>ot", "<cmd>FloatingTerminal<CR>", { desc = "Toggle floating terminal", silent = true })
+vim.keymap.set("t", "<leader>ot", "<cmd>FloatingTerminal<CR>", { desc = "Toggle floating terminal", silent = true })
 

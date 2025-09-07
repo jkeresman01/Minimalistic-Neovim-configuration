@@ -1,3 +1,4 @@
+----------------------------------------------------------------------------
 --
 -- ███╗   ██╗███████╗ ██████╗ ██╗   ██╗██╗███╗   ███╗
 -- ████╗  ██║██╔════╝██╔═══██╗██║   ██║██║████╗ ████║
@@ -7,9 +8,12 @@
 -- ╚═╝  ╚═══╝╚══════╝ ╚═════╝   ╚═══╝  ╚═╝╚═╝     ╚═╝
 --
 -- File: init.lua
--- Description: Initialize all modules, colorcsheme, remaps, set ....
+-- Description: Initialize core modules (colorscheme, options, keymaps).
 -- Author: Josip Keresman
+--
+----------------------------------------------------------------------------
 
 require("jk.colorscheme")
 require("jk.set")
 require("jk.remaps")
+

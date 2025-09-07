@@ -1,3 +1,4 @@
+----------------------------------------------------------------------------
 --
 -- ███╗   ██╗███████╗ ██████╗ ██╗   ██╗██╗███╗   ███╗
 -- ████╗  ██║██╔════╝██╔═══██╗██║   ██║██║████╗ ████║
@@ -7,31 +8,79 @@
 -- ╚═╝  ╚═══╝╚══════╝ ╚═════╝   ╚═══╝  ╚═╝╚═╝     ╚═╝
 --
 -- File: set.lua
--- Description: Setting some general stuff the way I want it
+-- Description: Setting some general nonsense the way I want it
 -- Author: Josip Keresman
+--
+----------------------------------------------------------------------------
 
--- pretty self explanatory
--- For more info, enter help in command mode: smth like this ----> ':help relativenumber'
-
+----------------------------------------------------------------------------
+--
+-- Leader Key
+-- Global leader for <leader> mappings.
+--
+----------------------------------------------------------------------------
 vim.g.mapleader = ","
 
+----------------------------------------------------------------------------
+--
+-- Cursor
+-- Empty guicursor -> block cursor in all modes (classic Vim feel).
+--
+----------------------------------------------------------------------------
 vim.opt.guicursor = ""
 
+----------------------------------------------------------------------------
+--
+-- Line Numbers
+-- Absolute + relative numbers for quick motion counts.
+--
+----------------------------------------------------------------------------
 vim.opt.number = true
 vim.opt.relativenumber = true
+-- :help relativenumber
 
+----------------------------------------------------------------------------
+--
+-- Tabs / Indentation
+-- 4-space tabs, expand to spaces, and smart indentation.
+--
+----------------------------------------------------------------------------
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
-
 vim.opt.smartindent = true
 
+----------------------------------------------------------------------------
+--
+-- Wrapping
+-- Soft-wrap long lines instead of extending horizontally.
+--
+----------------------------------------------------------------------------
 vim.opt.wrap = true
 
+----------------------------------------------------------------------------
+--
+-- Search
+-- No persistent highlight; no incremental search preview.
+--
+----------------------------------------------------------------------------
 vim.opt.hlsearch = false
 vim.opt.incsearch = false
 
+----------------------------------------------------------------------------
+--
+-- Colors
+-- True color support in terminal UIs.
+--
+----------------------------------------------------------------------------
 vim.opt.termguicolors = true
 
+----------------------------------------------------------------------------
+--
+-- Scrolling
+-- Keep context around the cursor.
+--
+----------------------------------------------------------------------------
 vim.opt.scrolloff = 8
+
