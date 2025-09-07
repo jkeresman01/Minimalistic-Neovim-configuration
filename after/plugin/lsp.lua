@@ -28,7 +28,7 @@ lsp_zero.on_attach(function(bufnr)
 
   local opts = { noremap = true, silent = true, buffer = bufnr }
 
-  vim.keymap.set("n", "K",         vim.lsp.buf.hover,          opts) -- hover docs
+  vim.keymap.set("n", "K",         vim.lsp.buf.hover,           opts) -- hover docs
   vim.keymap.set("n", "gd",        vim.lsp.buf.definition,      opts) -- go to definition
   vim.keymap.set("n", "gr",        vim.lsp.buf.references,      opts) -- references
   vim.keymap.set("n", "gD",        vim.lsp.buf.declaration,     opts) -- declaration
@@ -45,7 +45,14 @@ end)
 ----------------------------------------------------------------------------
 require("mason").setup({})
 require("mason-lspconfig").setup({
-  ensure_installed = { "rust_analyzer", "clangd", "gopls", "omnisharp" },
+  ensure_installed = {
+    "rust_analyzer",
+    "clangd",
+    "gopls",
+    "omnisharp",
+    "erlangls",
+    "elixirls",
+  },
   handlers = { lsp_zero.default_setup },
 })
 
@@ -124,3 +131,22 @@ require("lspconfig").omnisharp.setup({
   on_attach = lsp_zero.on_attach,
 })
 
+----------------------------------------------------------------------------
+--
+-- Server: erlangls (Erlang)
+---
+----------------------------------------------------------------------------
+require("lspconfig").erlangls.setup({
+  capabilities = capabilities,
+  on_attach = lsp_zero.on_attach,
+})
+
+----------------------------------------------------------------------------
+--
+-- Server: elixirls (Elixir)
+---
+----------------------------------------------------------------------------
+require("lspconfig").elixirls.setup({
+  capabilities = capabilities,
+  on_attach = lsp_zero.on_attach,
+})
