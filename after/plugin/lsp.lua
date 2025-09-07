@@ -36,7 +36,6 @@ require("mason-lspconfig").setup({
 })
 
 local cmp = require("cmp")
-local lspkind = require("lspkind")
 
 cmp.setup({
     snippet = {
@@ -56,15 +55,7 @@ cmp.setup({
         ["<CR>"] = cmp.mapping.confirm({ select = false }),
         ["<Tab>"] = cmp.mapping.select_next_item(),
         ["<S-Tab>"] = cmp.mapping.select_prev_item(),
-    }),
-
-    formatting = {
-        format = lspkind.cmp_format({
-            mode = "symbol_text",
-            maxwidth = 50,
-            ellipsis_char = "...",
-        }),
-    },
+    })
 })
 
 local capabilities = require("cmp_nvim_lsp").default_capabilities()

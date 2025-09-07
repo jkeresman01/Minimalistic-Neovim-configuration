@@ -24,10 +24,14 @@ return require("packer").startup(function(use)
         requires = { { "nvim-lua/plenary.nvim" } },
     })
 
-    use("jkeresman01/dontuse.nvim")
     use("techtuner/aura-neovim")
 
+    use("jkeresman01/dontuse.nvim")
     use("jkeresman01/active-files.nvim");
+    use("jkeresman01/tmux-switch.nvim")
+    use("jkeresman01/java-maven-test.nvim")
+    use("jkeresman01/spring-initializr.nvim")
+    use("jkeresman01/java-method-search.nvim")
 
     use("stevearc/oil.nvim")
 
@@ -36,7 +40,6 @@ return require("packer").startup(function(use)
     use("nvim-lua/popup.nvim")
     use("MunifTanjim/nui.nvim")
 
-    use("jkeresman01/tmux-switch.nvim")
 
     use("nvim-treesitter/playground")
 
@@ -61,9 +64,6 @@ return require("packer").startup(function(use)
         "nvim-lualine/lualine.nvim",
         requires = { "nvim-tree/nvim-web-devicons", opt = true },
     })
-
-    use("jkeresman01/java-maven-test.nvim")
-    use("jkeresman01/java-method-search.nvim")
 
     use({ "folke/trouble.nvim", cmd = "Trouble" })
 

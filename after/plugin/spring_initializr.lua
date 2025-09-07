@@ -1,4 +1,4 @@
---tro
+--
 -- ███╗   ██╗███████╗ ██████╗ ██╗   ██╗██╗███╗   ███╗
 -- ████╗  ██║██╔════╝██╔═══██╗██║   ██║██║████╗ ████║
 -- ██╔██╗ ██║█████╗  ██║   ██║██║   ██║██║██╔████╔██║
@@ -6,11 +6,11 @@
 -- ██║ ╚████║███████╗╚██████╔╝ ╚████╔╝ ██║██║ ╚═╝ ██║
 -- ╚═╝  ╚═══╝╚══════╝ ╚═════╝   ╚═══╝  ╚═╝╚═╝     ╚═╝
 --
--- File: trouble.lua
--- Description: Navigate to LSP diagnostics in really cool way
+-- File: oil.lua
+-- Description: OIL is really cool and simple file manager
 -- Author: Josip Keresman
 
-require("trouble").setup({})
+require("spring-initializr").setup()
 
-vim.keymap.set("n", "<leader>tt", "<cmd>Trouble diagnostics toggle<CR>")
-vim.keymap.set("n", "<leader>t", "<cmd>Trouble diagnostics toggle filter.buf=0<CR>")
+vim.keymap.set("n", "<leader>si", "<CMD>SpringInitializr<CR>")
+vim.keymap.set("n", "<leader>sg", "<CMD>SpringGenerateProject<CR>")
