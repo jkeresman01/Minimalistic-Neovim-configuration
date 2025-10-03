@@ -37,6 +37,7 @@ require("nvim-treesitter.configs").setup({
       "elixir",
       "c",
       "lua",
+      "kotlin",
       "vim",
       "vimdoc",
       "query"

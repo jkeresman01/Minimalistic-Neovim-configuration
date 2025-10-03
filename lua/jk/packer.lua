@@ -142,7 +142,8 @@ return require("packer").startup(function(use)
     ------------------------------------------------------------------------
     use("jkeresman01/java-maven-test.nvim")
     use("jkeresman01/java-method-search.nvim")
-    use("jkeresman01/spring-initializr.nvim")
+    use("/home/josip/git/lua/spring-initializr.nvim")
+    -- use("jkeresman01/spring-initializr.nvim")
 
     ------------------------------------------------------------------------
     --

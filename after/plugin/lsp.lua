@@ -52,6 +52,7 @@ require("mason-lspconfig").setup({
     "omnisharp",
     "erlangls",
     "elixirls",
+    "kotlin_language_server",
   },
   handlers = { lsp_zero.default_setup },
 })
@@ -147,6 +148,16 @@ require("lspconfig").erlangls.setup({
 ---
 ----------------------------------------------------------------------------
 require("lspconfig").elixirls.setup({
+  capabilities = capabilities,
+  on_attach = lsp_zero.on_attach,
+})
+
+----------------------------------------------------------------------------
+--
+-- Server: kotlin_language_server
+---
+----------------------------------------------------------------------------
+require("lspconfig").kotlin_language_server.setup({
   capabilities = capabilities,
   on_attach = lsp_zero.on_attach,
 })
