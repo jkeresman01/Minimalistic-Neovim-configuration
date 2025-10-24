@@ -9,6 +9,19 @@
   
 </div>
 
+
+⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️
+
+
+> **Note:** This repository has been archived and is no longer actively maintained. Packer has been unmaintained since August 2023.
+
+> **Note:** This configuration has been migrated to [lazy.nvim](https://github.com/folke/lazy.nvim)
+ 
+> **Note:** You can find new configuration here [New configuration](https://github.com/jkeresman01/nvim-layz-config)
+
+⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️
+
+
 ## Table of Contents
 
 - [Plugin manager](#plugin-manager)
