@@ -35,7 +35,6 @@ return require("packer").startup(function(use)
     --
     ------------------------------------------------------------------------
     use("rstacruz/vim-closer")
-    use("techtuner/aura-neovim")
     use("stevearc/oil.nvim")
     use("tpope/vim-commentary")
 
@@ -101,15 +100,34 @@ return require("packer").startup(function(use)
     -- folke/trouble.nvim         : Quickfix/diagnostics list UI.
     -- lewis6991/gitsigns.nvim    : Git hunks, signs and actions.
     -- tpope/vim-fugitive         : Git porcelain inside Vim.
-    --
     ------------------------------------------------------------------------
     use({
         "nvim-lualine/lualine.nvim",
         requires = { "nvim-tree/nvim-web-devicons", opt = true },
     })
+
     use({ "folke/trouble.nvim", cmd = "Trouble" })
+
     use("lewis6991/gitsigns.nvim")
     use("tpope/vim-fugitive")
+
+    ------------------------------------------------------------------------
+    --
+    -- Debug adapter protocol setup + UI
+    --
+    ------------------------------------------------------------------------
+    use {
+        "jay-babu/mason-nvim-dap.nvim",
+        requires = { "mfussenegger/nvim-dap" }
+    }
+
+    use {
+        "rcarriga/nvim-dap-ui",
+        requires = { 
+            "mfussenegger/nvim-dap",
+            "nvim-neotest/nvim-nio"
+        }
+    }
 
     ------------------------------------------------------------------------
     --
@@ -138,12 +156,13 @@ return require("packer").startup(function(use)
     -- jkeresman01/java-maven-test.nvim   : Run Maven tests from Neovim.
     -- jkeresman01/java-method-search.nvim: Search Java methods.
     -- jkeresman01/spring-initializr.nvim : Generate Spring Boot projects.
+    -- ~/git/lua/spring-initializr.nvim : For development purposes
     --
     ------------------------------------------------------------------------
     use("jkeresman01/java-maven-test.nvim")
     use("jkeresman01/java-method-search.nvim")
-    use("/home/josip/git/lua/spring-initializr.nvim")
-    -- use("jkeresman01/spring-initializr.nvim")
+    use("jkeresman01/spring-initializr.nvim")
+    -- use("/home/josip/git/lua/spring-initializr.nvim")
 
     ------------------------------------------------------------------------
     --
@@ -152,15 +171,7 @@ return require("packer").startup(function(use)
     -- rcarriga/nvim-notify : Fancy notifications; replaces vim.notify.
     --
     ------------------------------------------------------------------------
-    use({
-        "rcarriga/nvim-notify",
-        config = function()
-            require("notify").setup({
-                stages = "fade_in_slide_out",
-            })
-            vim.notify = require("notify")
-        end,
-    })
+    use("rcarriga/nvim-notify")
 
     ------------------------------------------------------------------------
     --
@@ -170,4 +181,14 @@ return require("packer").startup(function(use)
     --
     ------------------------------------------------------------------------
     use("MunifTanjim/nui.nvim")
+
+    ------------------------------------------------------------------------
+    --
+    -- Calendar
+    --
+    -- wsdjeg/calendar.nvim: Simple calendar plugin
+    --
+    ------------------------------------------------------------------------
+    use("wsdjeg/calendar.nvim")
+
 end)

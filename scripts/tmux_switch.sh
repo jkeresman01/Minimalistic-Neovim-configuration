@@ -32,6 +32,6 @@ fi
 ##############################################################################
 #
 # List tmux session names and switch to selected tmux session
-
+#
 ##############################################################################
 tmux ls | awk -F ':' '{print $1}' | fzf | xargs -I {} tmux switch -t {}
